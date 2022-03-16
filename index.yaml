@@ -1,0 +1,121 @@
+apiVersion: v1
+entries:
+  Host-Attestation:
+  - apiVersion: v2
+    appVersion: v4.2.0
+    created: "2022-03-16T02:49:25.492262895-07:00"
+    dependencies:
+    - name: factory
+      repository: file://../../lib/factory/
+      version: 4.2.0
+    - name: cleanup-secrets
+      repository: file://../../jobs/cleanup-secrets/
+      version: 4.2.0
+    - name: aasdb-cert-generator
+      repository: file://../../jobs/aasdb-cert-generator/
+      version: 4.2.0
+    - name: nats-init
+      repository: file://../../jobs/nats/
+      version: 4.2.0
+    - name: hvsdb-cert-generator
+      repository: file://../../jobs/hvsdb-cert-generator/
+      version: 4.2.0
+    - name: cms
+      repository: file://../../services/cms/
+      version: 4.2.0
+    - name: aas
+      repository: file://../../services/aas/
+      version: 4.2.0
+    - name: aas-manager
+      repository: file://../../jobs/aas-manager/
+      version: 4.2.0
+    - name: hvs
+      repository: file://../../services/hvs/
+      version: 4.2.0
+    - name: trustagent
+      repository: file://../../services/ta/
+      version: 4.2.0
+    - name: nats
+      repository: file://../../services/nats/
+      version: 4.2.0
+    description: A Helm chart for Deploying ISecL-DC Platform Attestation Use case
+    digest: e4096bdeb07f3da2d2fc4cd378bee5bd33ad3a64686633e6efd4f59a90278e19
+    maintainers:
+    - email: johnny.jacob@intel.com
+      name: JJ
+    - email: praveenrajr@intel.com
+      name: PraveenRaj R
+    - email: raghavender.nagarajan@intel.com
+      name: rana19
+    name: Host-Attestation
+    type: application
+    urls:
+    - https://pravinrajr9.github.io/helm.io/Host-Attestation-4.2.0.tgz
+    version: 4.2.0
+  - apiVersion: v2
+    appVersion: v4.2.0
+    created: "2022-03-16T02:49:25.511644737-07:00"
+    dependencies:
+    - name: factory
+      repository: file://../../lib/factory/
+      version: 4.2.0
+    - name: cleanup-secrets
+      repository: file://../../jobs/cleanup-secrets/
+      version: 4.2.0
+    - name: aasdb-cert-generator
+      repository: file://../../jobs/aasdb-cert-generator/
+      version: 4.2.0
+    - name: nats-init
+      repository: file://../../jobs/nats/
+      version: 4.2.0
+    - name: hvsdb-cert-generator
+      repository: file://../../jobs/hvsdb-cert-generator/
+      version: 4.2.0
+    - name: cms
+      repository: file://../../services/cms/
+      version: 4.2.0
+    - name: aas
+      repository: file://../../services/aas/
+      version: 4.2.0
+    - name: aas-manager
+      repository: file://../../jobs/aas-manager/
+      version: 4.2.0
+    - name: hvs
+      repository: file://../../services/hvs/
+      version: 4.2.0
+    - name: trustagent
+      repository: file://../../services/ta/
+      version: 4.2.0
+    - name: nats
+      repository: file://../../services/nats/
+      version: 4.2.0
+    description: A Helm chart for Deploying ISecL-DC Platform Attestation Use case
+    digest: b11b80fe7dfc8cca8f490c88ff6c359589463531439ba4ae32aac608ac5b9003
+    maintainers:
+    - email: johnny.jacob@intel.com
+      name: JJ
+    - email: praveenrajr@intel.com
+      name: PraveenRaj R
+    - email: raghavender.nagarajan@intel.com
+      name: rana19
+    name: Host-Attestation
+    type: application
+    urls:
+    - https://pravinrajr9.github.io/helm.io/usecase-charts/Host-Attestation-4.2.0.tgz
+    version: 4.2.0
+  cms:
+  - apiVersion: v2
+    appVersion: v4.2.0
+    created: "2022-03-16T02:49:25.49363461-07:00"
+    dependencies:
+    - name: factory
+      repository: file://../../lib/factory/
+      version: 4.2.0
+    description: A Helm chart for Installing ISecL-DC Certificate Management Service
+    digest: 5d7eb3749767872abcbae716127497ccb1410387d1dc0a0e4e461bb9489385d9
+    name: cms
+    type: application
+    urls:
+    - https://pravinrajr9.github.io/helm.io/cms-4.2.0.tgz
+    version: 4.2.0
+generated: "2022-03-16T02:49:25.469622873-07:00"
